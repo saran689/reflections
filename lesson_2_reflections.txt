@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+    .git gets created when a repository is initialized. We need to do that in order to include files to and make a Git repository.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	The staging area holds the files that will be committed to the Git repository with the next commit. Staging area helps to keep just the files related to the logical change for the upcoming commit, which offers less chances of error.
