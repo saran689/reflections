@@ -5,3 +5,19 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The staging area holds the files that will be committed to the Git repository with the next commit. Staging area helps to keep just the files related to the logical change for the upcoming commit, which offers less chances of error.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Move to staging area just the files that need to be picked up for the upcoming logical change commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	We create branches when we want to make a logical change to the master code for another audience, say, which means we want a copy of the master code to server another purpose. Branches help in making commits to code for a sole purpose, without changing the master purpose.
+
+How do the diagrams help you visualize the branch structure?
+
+	The graph shows us the different branches created and the parent of a node. It also helps to indicate where the HEAD is with regard to other branches.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	When we merge two branches the code changes made in the branches will be merged into one place. It keeps the HEAD pointing to the latest code so that any further changes will access the latest set of changes.
