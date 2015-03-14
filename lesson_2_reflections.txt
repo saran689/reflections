@@ -12,7 +12,7 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-	We create branches when we want to make a logical change to the master code for another audience, say, which means we want a copy of the master code to server another purpose. Branches help in making commits to code for a sole purpose, without changing the master purpose.
+	We create branches when we want to make a logical change to the master code for another audience, say, which means we want a copy of the master code to serve another purpose. Branches help in making commits to code for a sole purpose, without changing the master purpose.
 
 How do the diagrams help you visualize the branch structure?
 
@@ -21,3 +21,8 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 	When we merge two branches the code changes made in the branches will be merged into one place. It keeps the HEAD pointing to the latest code so that any further changes will access the latest set of changes.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	Pros: its quicker to merge 2 versions when done automatically
+	Cons: automatic merge can not resolve conflicts that arise when a portion of the code has been updated by two developers. In this case a manual intervention is required to first resolve the conflict and 
